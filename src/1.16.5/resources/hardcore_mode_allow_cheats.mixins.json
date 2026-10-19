@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "admsgenter.hardcore_mode_allow_cheats.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "hardcore_mode_allow_cheats.refmap.json",
+    "client": [ "CreateWorldScreenMixin", "OptionsScreenMixin" ],
+    "mixins": [ "MinecraftServerMixin" ],
+    "injectors": { "defaultRequire": 1 }
+}
